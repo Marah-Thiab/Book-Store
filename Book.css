@@ -33,7 +33,12 @@ body.dark footer svg {
 body.dark footer p {
     color: #ffffff;
 }
-
+body.dark footer input,
+body.dark footer button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #029a9b;
+}
 
 
 body.dark nav ul li a,
