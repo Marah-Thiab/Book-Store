@@ -431,7 +431,7 @@ nav ul li a:hover {
     }
 }
 
-.imgContainer :hover {
+.imgContainer img:hover {
     transform: scale(1.2);
 }
 
@@ -447,7 +447,7 @@ nav ul li a:hover {
       }
       
       .navLinks {
-        display: none;
+        display: flex;
         flex-direction: column;
         position: absolute;
         top: 70px;
