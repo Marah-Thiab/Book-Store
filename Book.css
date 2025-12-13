@@ -504,17 +504,11 @@ nav ul li a:hover {
 
     
 }
-@media screen and (max-width:500px)
-{
-    img {
+@media screen and (max-width:768px) {
+    .advantages .section {
         width: 100%;
-        height: auto;
-        display: block;
+        margin-bottom: 20px;
     }
-    header {
-        height: 7%;
-    }
-
 }
 
 .reviews {
