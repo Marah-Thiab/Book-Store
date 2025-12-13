@@ -474,7 +474,7 @@ nav ul li a:hover {
         padding: 1rem;
     }
     .flexContainer{
-        width: calc(100%-20px);
+        width: calc(100% - 20px);
         padding: 10px;
         display: block;
     }
