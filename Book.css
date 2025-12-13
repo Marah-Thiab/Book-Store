@@ -474,7 +474,7 @@ nav ul li a:hover {
         padding: 1rem;
     }
     .flexContainer{
-        width: calc(100%-20px);
+        width: calc(100% - 20px);
         padding: 10px;
         display: block;
     }
@@ -504,17 +504,11 @@ nav ul li a:hover {
 
     
 }
-@media screen and (max-width:500px)
-{
-    img {
+@media screen and (max-width:768px) {
+    .advantages .section {
         width: 100%;
-        height: auto;
-        display: block;
+        margin-bottom: 20px;
     }
-    header {
-        height: 7%;
-    }
-
 }
 
 .reviews {
@@ -566,14 +560,14 @@ nav ul li a:hover {
 }
 .learnMore {
     position: absolute;
-    bottom: 19%;
+    bottom: 23%;
     left: 7%;
-    padding: 1rem 1.5rem;
+    padding: 0.6rem 1.5rem;
     font-size: 1rem;
-    background-color: #2da4bb;
+    background-color: #2e9f9d;
     color: white;
     border: none;
-    border-radius: 5px;
+   
     cursor: pointer;
     text-decoration: none;
 }
@@ -681,12 +675,13 @@ nav ul li a:hover {
   }
 
   .newsletter button {
-    background-color: #008080;
+    background-color:#0a9e9e;
     color: white;
     border: none;
     padding: 6px 14px;
     border-radius: 16px;
     cursor: pointer;
+   
   }
 
   .logoIcon {
@@ -722,12 +717,15 @@ position: static;
 @media (max-width: 600px) {
 .advantages { flex-direction: column; }
 header { padding: 1rem 4%; }
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
+.footer .logoIcon img {
+    width: 50px;  
+    height: 50px; 
+    object-fit: contain; 
 }
-=======
+
+
+.footerSmile {
+    color: #0a9e9e;       
+    margin-left: 100;
 }
->>>>>>> cffe898 (add to css)
->>>>>>> razan
