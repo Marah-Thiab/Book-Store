@@ -837,3 +837,22 @@ nav ul li a:hover {
     margin-bottom: 10px; 
   }
 }
+.footer .logoIcon img {
+    width: 50px;  
+    height: 50px; 
+    object-fit: contain; 
+}
+
+
+.footerSmile {
+    color: #0ba1a1;       
+    margin-left: 100;
+}
+
+.heartIcon {
+  color: var(--main-color);
+}
+
+body.dark .heartIcon {
+  color: var(--main-color) !important;
+}
