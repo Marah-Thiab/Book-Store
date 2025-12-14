@@ -420,6 +420,7 @@ nav ul li a:hover {
 .arrivalsChild:hover {
     box-shadow: 0px 0px 3px 0px var(--main-color);
     cursor: pointer;
+    padding-bottom: 20px;
 }
 
 .imgContainer {
@@ -631,6 +632,7 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: flex-start;
     font-size: 14px;
+    text-align: center;
   
 
    div {
@@ -726,6 +728,15 @@ header { padding: 1rem 4%; }
 
 
 .footerSmile {
-    color: #0a9e9e;       
+    color: #0ba1a1;       
     margin-left: 100;
 }
+
+.heartIcon {
+  color: var(--main-color);
+}
+
+body.dark .heartIcon {
+  color: var(--main-color) !important;
+}
+
